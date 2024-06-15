@@ -168,7 +168,7 @@ class AbsTask(ABC):
         """Load dataset from HuggingFace hub"""
         if self.data_loaded:
             return
-        self.dataset = datasets.load_dataset(**self.metadata_dict["dataset"])  # type: ignore
+        self.dataset = datasets.load_dataset(**self.metadata_dict["dataset"], trust_remote_code=True)  # type: ignore
         self.dataset_transform()
         self.data_loaded = True
 
