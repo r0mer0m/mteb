@@ -9,7 +9,7 @@ from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_sc
 
 from mteb.encoder_interface import Encoder
 
-from .Evaluator import Evaluator
+from .evaluator import Evaluator
 from .model_encode import model_encode
 from .utils import cos_sim
 
