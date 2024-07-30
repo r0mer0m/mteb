@@ -1,7 +1,7 @@
 import logging
 from typing import Dict
 
-from .RetrievalEvaluator import (
+from .retrieval_evaluator import (
     RetrievalEvaluator,
 )
 

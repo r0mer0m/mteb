@@ -1,7 +1,7 @@
 from sentence_transformers import SentenceTransformer
 
 from mteb.encoder_interface import Encoder, EncoderWithQueryCorpusEncode
-from mteb.evaluation.evaluators.RetrievalEvaluator import DRESModel
+from mteb.evaluation.evaluators.retrieval_evaluator import DRESModel
 
 
 def test_sentence_is_encoder():
