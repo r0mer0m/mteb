@@ -17,7 +17,7 @@ from torch import Tensor
 from mteb.encoder_interface import Encoder
 from mteb.evaluation.evaluators.model_encode import model_encode
 
-from mteb.evaluation.evaluators.evaluator import Evaluator
+from . import Evaluator
 
 logger = logging.getLogger(__name__)
 
