@@ -9,7 +9,7 @@ import torch
 import tqdm
 from sklearn.metrics import average_precision_score
 
-from mteb.evaluation.evaluators.RetrievalEvaluator import RetrievalEvaluator
+from mteb.evaluation.evaluators.retrieval_evaluator import RetrievalEvaluator
 
 from ...encoder_interface import Encoder, EncoderWithQueryCorpusEncode
 from .evaluator import Evaluator
