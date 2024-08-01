@@ -9,7 +9,7 @@ from sklearn import metrics
 
 from mteb.encoder_interface import Encoder
 
-from . import Evaluator
+from .evaluator import Evaluator
 from .model_encode import model_encode
 
 logger = logging.getLogger(__name__)

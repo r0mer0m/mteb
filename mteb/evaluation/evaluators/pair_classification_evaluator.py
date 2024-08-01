@@ -14,7 +14,7 @@ from sklearn.metrics.pairwise import (
 from mteb.encoder_interface import Encoder, EncoderWithSimilarity
 from mteb.evaluation.evaluators.model_encode import model_encode
 
-from . import Evaluator
+from .evaluator import Evaluator
 
 logger = logging.getLogger(__name__)
 

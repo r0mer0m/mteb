@@ -12,7 +12,7 @@ from sklearn.metrics import average_precision_score
 from mteb.evaluation.evaluators.retrieval_evaluator import RetrievalEvaluator
 
 from ...encoder_interface import Encoder, EncoderWithQueryCorpusEncode
-from . import Evaluator
+from .evaluator import Evaluator
 from .model_encode import model_encode
 from .utils import confidence_scores, cos_sim, nAUC
 
